@@ -9,7 +9,7 @@ function! YamlFolds()
   if current_line =~ '^---$'
     return ">1"
 
-elseif current_line =~ '^...$'
+  elseif current_line =~ '^...$'
     return "<1"
 
   elseif next_line =~ '^\s*$'
